@@ -6,25 +6,25 @@ const fallbackProducts = [
     _id: '1',
     name: 'EarBuds',
     price: 399,
-    image: '/images/product1.jpg',
+    image: '${import.meta.env.BASE_URL}images/product1.jpg',
   },
   {
     _id: '2',
     name: 'Smart Watch',
     price: 899,
-    image: '/images/product2.jpg',
+    image: '${import.meta.env.BASE_URL}images/product2.jpg',
   },
   {
     _id: '3',
     name: 'Headphones',
     price: 199,
-    image: '/images/product3.jpg',
+    image: '${import.meta.env.BASE_URL}images/product3.jpg',
   },
   {
     _id: '4',
     name: 'Laptop',
     price: 499,
-    image: '/images/product4.jpg',
+    image: '${import.meta.env.BASE_URL}images/product4.jpg',
   },
 ];
 
