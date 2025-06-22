@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply min-h-screen text-white;
+  background: linear-gradient(120deg, #0f0c29, #302b63, #24243e);
+  background-size: 180% 180%;
+  animation: aurora 10s ease infinite;
+}
+
+
+
+@keyframes aurora {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
